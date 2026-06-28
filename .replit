@@ -60,3 +60,7 @@ exposeLocalhost = true
 deploymentTarget = "autoscale"
 run = ["bash", "-c", "cd backend && python3 run.py & cd frontend && npm start"]
 build = ["bash", "-c", "cd frontend && npm run build"]
+
+[userenv]
+
+[userenv.shared]
